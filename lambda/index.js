@@ -13,7 +13,7 @@ const LaunchRequestHandler = {
     return getRequestType(handlerInput.requestEnvelope) === "LaunchRequest";
   },
   handle(handlerInput) {
-    const speakOutput = "Bem vindo a sua primeira skill Dudu!";
+    const speakOutput = "Bem vindo a sua primeira skill Eduardo!";
     return handlerInput.responseBuilder
       .speak(speakOutput)
       .reprompt(speakOutput)
@@ -30,7 +30,7 @@ const GetCharacterIntent = {
   handle(handlerInput) {
     const { requestEnvelope } = handlerInput;
 
-    let slot = getSlot(requestEnvelope, "first");
+    let slot = getSlot(requestEnvelope, "hero");
 
     let slotValue = getSlotValue(slot);
 
