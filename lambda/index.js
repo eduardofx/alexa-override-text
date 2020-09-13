@@ -13,8 +13,7 @@ const LaunchRequestHandler = {
     return getRequestType(handlerInput.requestEnvelope) === "LaunchRequest";
   },
   handle(handlerInput) {
-    const speakOutput =
-      "Bem vindo a sua primeira skill! Você pode encerrar a qualquer momento dizendo: pare ou pedir ajuda dizendo: ajuda. O que posso fazer por você?";
+    const speakOutput = "Bem vindo a sua primeira skill Dudu!";
     return handlerInput.responseBuilder
       .speak(speakOutput)
       .reprompt(speakOutput)
