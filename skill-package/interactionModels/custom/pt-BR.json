@@ -16,17 +16,14 @@
           "samples": []
         },
         {
-          "name": "HelloWorldIntent",
-          "slots": [],
-          "samples": [
-            "olá",
-            "como vai você",
-            "diga oi mundo",
-            "diga oi",
-            "oi",
-            "diga olá mundo",
-            "diga olá"
-          ]
+          "name": "GetPublisherIntent",
+          "slots": [
+            {
+              "name": "hero",
+              "type": "Hero"
+            }
+          ],
+          "samples": ["de onde é o {hero}", "de qual editora é o {hero}"]
         },
         {
           "name": "AMAZON.NavigateHomeIntent",
