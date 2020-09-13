@@ -17,3 +17,4 @@ https://developer.amazon.com/en-US/docs/alexa/smapi/ask-cli-command-reference.ht
 
 LauchRequest = Start Skill
 IntentRequest = Skill Custumizada
+SSML = Notação de voz
